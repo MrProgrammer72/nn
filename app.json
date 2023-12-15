@@ -7,7 +7,7 @@
         "telegram bot",
         "pyrogram"
     ],
-    "repository": "https://github.com/MrProgrammer72/n",
+    "repository": "https://github.com/MrProgrammer72/nn",
     "success_url": "https://t.me/GJ516_DISCUSS_GROUP",
     "env": {
         "API_ID": {
