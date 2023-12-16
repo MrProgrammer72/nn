@@ -12,7 +12,7 @@ from youtubesearchpython.__future__ import VideosSearch
 
 from SankiMusic import bot
 from SankiMusic.resource import thumbs, colors
-from SankiMusic.utilities.config import YOUTUBE_IMG_URL
+from SankiMusic.utilities.config import MUSIC_BOT_NAME, YOUTUBE_IMG_URL
 
 
 
@@ -130,7 +130,7 @@ async def gen_thumb(videoid, user_id):
         try:
             draw.text(
                 (450, 35),
-                f"Kritika Music Bot",
+                f"{MUSIC_BOT_NAME}",
                 fill="white",
                 stroke_width=1,
                 stroke_fill="white",
